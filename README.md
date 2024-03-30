@@ -84,4 +84,3 @@ key -   Graph.Name , NetworX_generator
 ## Additional Notes
 
 - The code utilizes a GPU if available (CUDA).
-- Functions `compute_postions`, `count_colors`, `stress`, and `unfairness` are provided in the `utils.py` module.
