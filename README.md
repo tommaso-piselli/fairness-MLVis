@@ -73,44 +73,6 @@ key -   Graph.Name , NetworX_generator
 - Generates SVG visualizations in the `output/figs/` directory.
 - Creates a CSV file with performance metrics in the `output/csv/` directory.
 
-## Functions
-
-**- `plot_graph(pos, G, ax=None, node_size=10, edge_width=0.8, node_dic=None, title=None)`:** Plots the graph using Matplotlib, optionally nodes based on `node_dic`.
-
-**- `save_graph(pos, G, node_dic=None, save_path=None, ax=None, title=None)`:** Saves the graph plot as an SVG image.
-
-**- `train(G, pos, node_dic, device, save_path)`:** Performs the two-step optimization process and saves visualizations.
-This function performs the following steps:
-
-    1. Initialization:
-       - Calculates initial stress and unfairness.
-       - Sets node colors in the graph based on `node_dic`.
-       - Initializes optimizer and loss lists.
-
-    2. First step (optimize for stress):
-       - Runs a loop for a fixed number of iterations.
-       - In each iteration:
-           - Calculates stress loss.
-           - Backpropagates gradients.
-           - Updates node positions using the optimizer.
-           - Stores the loss value.
-
-    3. Second step (optimize for fairness):
-       - Defines thresholds for early stopping based on stress increase.
-       - Initializes a new optimizer and loss list.
-       - Runs a loop with manual early stopping:
-           - Calculates unfairness loss.
-           - Backpropagates gradients.
-           - Updates node positions using the optimizer.
-           - Stores the loss value.
-           - Checks if stress exceeds 5% or 20% increase thresholds:
-               - If 5% threshold exceeded, saves stress and unfairness values.
-           - Stops the loop if stress exceeds 20% increase threshold.
-
-    4. Returns:
-       - The initial and final stress and unfairness values, along with any intermediate values saved during early stopping.
-
-**- `create_folders(graph_name)`:** Creates necessary output directories.
 
 ## Main Execution
 
