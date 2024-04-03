@@ -15,7 +15,8 @@ This code aims to generate optimized graph layouts by minimizing both stress and
 
 ## Usage
 
-Check `requirements.txt` for libraries. Run `computeLayout.py`. You can change the data by moving files from `data_source`to the `data` directory.
+Check `requirements.txt` for libraries. Run `computeLayout.py` to generate layouts. You can select a different input by changing the `name` variable with the name of the corresponding graph name.
+You can find a list of possible graphs in the `data` folder.
 
 
 If you want to test the ModelRandom, you can modify the `computeLayout.py` with these key changes:

@@ -9,7 +9,7 @@ import time
 # Variables
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-name = 'lesmis'
+name = 'lesmis'                 # Change this variable with the corresponding graph name
 filepath = f'data/{name}.mat'
 lr = 0.01
 maxIters = 15000
