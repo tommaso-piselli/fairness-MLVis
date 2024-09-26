@@ -1,5 +1,8 @@
 # **Graph Layout Optimization with Stress and Unfairness Objectives using Gradient Descent (GD)**
 
+## Update
+- [09/2024] Added extensions for Journal Version. Check: INS-extension
+ 
 ## Overview
 
 This code aims to generate optimized graph layouts by minimizing both stress and unfairness objectives. It works by iteratively adjusting node positions to reduce stress while ensuring a fair distribution of nodes with different colors.
