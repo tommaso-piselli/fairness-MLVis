@@ -1,0 +1,20 @@
+Graph: DRUGNET
+Nodes: 193
+Edges: 273
+Density: 1.4145077720207253
+
+Ethnicity:
+  1: 13
+  2: 69
+  3: 109
+  5: 1
+  7: 1
+
+Gender:
+  0: 3
+  1: 147
+  2: 43
+
+Hastie:
+  1: 193
+

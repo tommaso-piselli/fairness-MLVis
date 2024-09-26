@@ -1,0 +1,44 @@
+Graph: graph_spa_500_20
+Nodes: 500
+Edges: 1651
+Density: 3.302
+
+Region:
+  acton: 11 - 2.2%
+  desert_view_highlands: 3 - 0.6%
+  lake_los_angeles: 18 - 3.6%
+  lancaster: 211 - 42.2%
+  leona_valley: 2 - 0.4%
+  littlerock: 2 - 0.4%
+  northeast_antelope_valley: 7 - 1.4%
+  northwest_antelope_valley: 5 - 1.0%
+  northwest_palmdale: 5 - 1.0%
+  palmdale: 198 - 39.6%
+  quartz_hill: 15 - 3.0%
+  southeast_antelope_valley: 8 - 1.6%
+  sun_village: 15 - 3.0%
+
+Ethnicity:
+  asian: 15 - 3.0%
+  black: 46 - 9.2%
+  latino: 151 - 30.2%
+  other: 29 - 5.8%
+  white: 259 - 51.8%
+
+Age:
+  18-24: 73 - 14.6%
+  25-29: 44 - 8.8%
+  30-39: 100 - 20.0%
+  40-49: 132 - 26.4%
+  50-59: 55 - 11.0%
+  60-64: 33 - 6.6%
+  65+: 63 - 12.6%
+
+Gender:
+  female: 242 - 48.4%
+  male: 258 - 51.6%
+
+Status:
+  normal: 170 - 34.0%
+  obese: 126 - 25.2%
+  overweight: 204 - 40.8%
