@@ -1,5 +1,10 @@
 # **Graph Layout Optimization with Stress and Unfairness Objectives using Gradient Descent (GD)**
 
+## Notes
+- Code based on the repository: https://github.com/bwilder0/fair_influmax_code_release and modified for our needs.
+- To run the code: `computeLayout.py`
+- The code in this state contains customs savings and drawings. Check `utils.py` and `model.py` for your needs.
+
 - Python Version: `Python 3.10.11`
 
 - CUDA Version: 
